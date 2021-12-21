@@ -1,0 +1,30 @@
+body{
+  background-image: url(https://images.unsplash.com/photo-1636837955417-2d8a4e49368f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+#forgot{
+  text-decoration: none;
+}
+#dont{
+  margin-left: 150px;
+  text-decoration:none;
+}
+#forgot:hover{
+  color: black;
+}
+#center{
+  margin-left: 100px;
+}
+/* .flex{
+  display: flex;
+  height: 625px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: blue;
+} */
