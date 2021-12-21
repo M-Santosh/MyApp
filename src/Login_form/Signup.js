@@ -31,10 +31,7 @@ export default function Signup() {
               alignItems: "center",
             }}
           >
-            <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}>
-        
-            </Avatar>
-            <Typography component="h1" variant="h5">
+            <Typography sx={{mt:5}} component="h1" variant="h5">
               Sign up
             </Typography>
             <Box
@@ -99,13 +96,15 @@ export default function Signup() {
                   />
                   <Divider sx={{mt:2}}>Input value</Divider>
                   </Grid>
-                  <Typography variant="h6">
+                 <Grid>
+                 <Typography variant="h3">
                     <h6>Firstname: <span style={{color:"green"}}>{firstname}</span></h6>
                     <h6>Lastname: <span style={{color:"blue"}}>{lastname}</span></h6>
                     <h6>Email: <span style={{color:"violet"}}>{email}</span></h6>
                     <h6>Password: <span style={{color:"red"}}>{password}</span></h6>
                     <h6>Phone Number: <span style={{color:"darkblue"}}>{phone}</span></h6>
                   </Typography>
+                 </Grid>
                 </Grid>
                 
       
